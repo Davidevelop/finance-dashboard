@@ -152,8 +152,9 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-height: calc(100vh - 80px);
-    padding: 20px 20px 100px 20px;
+    min-height: 100vh;
+    padding: 40px 20px 120px 20px;
+    overflow-y: auto;
 }
 
 /* Login Panel Centralizado */
@@ -161,7 +162,7 @@ body {
     width: 100%;
     max-width: 500px;
     padding: 20px;
-    margin-bottom: 20px;
+    margin: auto;
 }
 
 .login-card-simple {
@@ -708,6 +709,16 @@ body {
     .login-container {
         flex-direction: column;
         max-width: 500px;
+        padding: 30px 20px 150px 20px;
+        min-height: 100vh;
+    }
+    
+    .login-panel-center {
+        padding: 15px;
+    }
+    
+    .login-card-simple {
+        padding: 35px 25px;
     }
     
     .welcome-panel {
@@ -729,6 +740,35 @@ body {
     
     .login-panel {
         padding: 40px 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-container {
+        padding: 20px 15px 140px 15px;
+    }
+    
+    .login-card-simple {
+        padding: 30px 20px;
+    }
+    
+    .brand-logo-center .logo-circle {
+        width: 55px;
+        height: 55px;
+        font-size: 26px;
+    }
+    
+    .brand-logo-center h2 {
+        font-size: 24px;
+    }
+    
+    .card-header h3 {
+        font-size: 20px;
+    }
+    
+    .login-footer {
+        font-size: 11px;
+        padding: 12px 15px;
     }
 }
 
