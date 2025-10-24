@@ -149,54 +149,54 @@ body {
     position: relative;
     z-index: 10;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     width: 100%;
     min-height: 100vh;
-    padding: 40px 20px 120px 20px;
+    padding: 30px 20px 140px 20px;
     overflow-y: auto;
 }
 
 /* Login Panel Centralizado */
 .login-panel-center {
     width: 100%;
-    max-width: 500px;
-    padding: 20px;
-    margin: auto;
+    max-width: 450px;
+    padding: 15px;
+    margin: 0 auto;
 }
 
 .login-card-simple {
     background: rgba(30, 41, 59, 0.85);
     backdrop-filter: blur(20px);
-    border-radius: 24px;
-    padding: 40px 35px;
+    border-radius: 20px;
+    padding: 30px 28px;
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5),
                 0 0 100px rgba(102, 126, 234, 0.15);
     border: 1px solid rgba(148, 163, 184, 0.1);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .brand-logo-center {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .brand-logo-center .logo-circle {
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
     background: var(--gradient-primary);
-    border-radius: 18px;
+    border-radius: 16px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
+    font-size: 26px;
     color: white;
     box-shadow: 0 10px 40px rgba(102, 126, 234, 0.4);
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .brand-logo-center h2 {
-    font-size: 28px;
+    font-size: 24px;
     color: var(--text-primary);
     font-weight: 700;
     margin: 0;
@@ -204,25 +204,25 @@ body {
 
 .card-header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .card-header h3 {
-    font-size: 22px;
+    font-size: 20px;
     color: var(--text-primary);
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     font-weight: 600;
 }
 
 .card-header p {
-    font-size: 14px;
+    font-size: 13px;
     color: var(--text-secondary);
 }
 
 /* Demo Credentials Visível */
 .demo-credentials-visible {
-    margin-top: 25px;
-    padding: 18px;
+    margin-top: 20px;
+    padding: 15px;
     background: rgba(102, 126, 234, 0.1);
     border-radius: 12px;
     border: 1px solid rgba(102, 126, 234, 0.2);
@@ -449,15 +449,15 @@ body {
 .login-form-new {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 18px;
 }
 
 .form-group-new label {
     display: block;
     color: var(--text-primary);
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .input-wrapper {
@@ -478,12 +478,12 @@ body {
 
 .input-wrapper input {
     width: 100%;
-    padding: 16px 50px;
+    padding: 13px 45px;
     background: rgba(51, 65, 85, 0.5);
     border: 2px solid transparent;
-    border-radius: 12px;
+    border-radius: 10px;
     color: var(--text-primary);
-    font-size: 15px;
+    font-size: 14px;
     transition: all 0.3s ease;
     position: relative;
     z-index: 2;
@@ -549,12 +549,12 @@ body {
 
 .login-btn-new {
     width: 100%;
-    padding: 18px;
+    padding: 14px;
     background: var(--gradient-primary);
     border: none;
-    border-radius: 12px;
+    border-radius: 10px;
     color: white;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     cursor: pointer;
     display: flex;
